@@ -11,6 +11,6 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String home() {
-        return "Hello, World!";
+        return "<h1>Hello world</h1>";
     }
 }
